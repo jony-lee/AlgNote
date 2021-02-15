@@ -7,6 +7,7 @@ package leetcode
 
 import "sort"
 
+// 最佳解法
 func subsetsWithDup(nums []int) [][]int {
 	sort.Ints(nums)
 	ret := [][]int{}
