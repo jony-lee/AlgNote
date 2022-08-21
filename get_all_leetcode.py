@@ -2,7 +2,6 @@ import requests
 import json
 import os
 import html2text
-
 level = {
     3:"困难",
     2:"一般",
@@ -21,7 +20,7 @@ def get_question_detail(title):
     url = "https://leetcode.cn/graphql/"
     headers = {
         'Referer': 'https://leetcode.cn',
-        'x-csrftoken': 'Nrux0qFNAA79pprqkj3b7AOcI8eU9kGAIx3dzVE6W84M2Oc60eh5aRXHggXXaDBS',
+        'x-csrftoken': 'Ht2Ri1KsbRpDv4bvpa3eMXs05NiEed4e2AB20GxRGn0Iyy8YhQ4jNqHsEpUFfYN3',
         'content-type': 'application/json'
     }
     data = {
@@ -34,8 +33,11 @@ def get_question_detail(title):
     }
     res = requests.post(url,headers=headers,data = json.dumps(data))
     js = json.loads(res.text)["data"]["question"]
-    code = [x["code"] for x in js["codeSnippets"] if x["lang"]=="Go"][0]
-    desc = html2text.html2text(js["translatedContent"]) if "<p>" in js["translatedContent"] else js["translatedContent"]
+    code,desc = "",""
+    if js["codeSnippets"]:
+        codes = [x["code"] for x in js["codeSnippets"] if x["lang"]=="Go"]
+        code = codes[0] if len(codes) > 0 else ""
+        desc = html2text.html2text(js["translatedContent"]) if "<p>" in js["translatedContent"] else js["translatedContent"]
     return (code,desc)
 
 # 根据http返回内容获取go文件里面应该填写的内容
@@ -70,12 +72,13 @@ if __name__ == "__main__":
         os.mkdir("leetcode")
     read_me_titles = []
     solved = 0
-    for item in all_problems["stat_status_pairs"][:10]:
+    for item in all_problems["stat_status_pairs"][:]:
         name = get_file_name(item)
         path = f"leetcode/{name}/"
+        print(item["stat"]["question__title_slug"])
         # 如果文件存在就根据main文件中的第15行和16行判断这个题目是不是已经完成了,如果完成了就在readme里面设置为done
         status = ""
-        if os.path.exists(path):
+        if os.path.exists(path+ "main.go"):
             go_file = path + "main.go"
             with open(go_file, 'r') as f:
                 data = f.readlines()
@@ -83,12 +86,14 @@ if __name__ == "__main__":
                 status = "Done"
                 solved +=1
         else:
-            os.mkdir(path)
+            os.makedirs(path,exist_ok=True)
             code,desc = get_question_detail(item["stat"]["question__title_slug"])
-            with open(path + "desc.md","w") as f:
-                f.write(desc)
-            with open(path+"main.go","w") as f:
-                f.write(gen_file_content(item)+code)
+            if desc != "":
+                with open(path + "desc.md","w") as f:
+                    f.write(desc)
+            if code != "":
+                with open(path+"main.go","w") as f:
+                    f.write(gen_file_content(item)+code)
         read_me_titles.append(f"|[{name}]({path}desc.md) |[GO]({path}main.go)|{status}|")
 
     # 刷新markdown
