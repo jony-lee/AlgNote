@@ -1,6 +1,6 @@
 # 题目列表
 
-![](https://img.shields.io/badge/solved-0.03627130939426913%25((1%2F2757))-brightgreen)
+![](https://img.shields.io/badge/solved-0.07%25((2%2F2757))-brightgreen)
 |题目描述|代码|状态|
 |--|--|--|
 |[0001-Two-Sum](leetcode/0001-Two-Sum/desc.md) |[GO](leetcode/0001-Two-Sum/main.go)||
@@ -2654,7 +2654,7 @@
 |[面试题-01.03-String-to-URL-LCCI](leetcode/面试题-01.03-String-to-URL-LCCI/desc.md) |[GO](leetcode/面试题-01.03-String-to-URL-LCCI/main.go)||
 |[面试题-01.04-Palindrome-Permutation-LCCI](leetcode/面试题-01.04-Palindrome-Permutation-LCCI/desc.md) |[GO](leetcode/面试题-01.04-Palindrome-Permutation-LCCI/main.go)||
 |[面试题-01.05-One-Away-LCCI](leetcode/面试题-01.05-One-Away-LCCI/desc.md) |[GO](leetcode/面试题-01.05-One-Away-LCCI/main.go)||
-|[面试题-01.06-Compress-String-LCCI](leetcode/面试题-01.06-Compress-String-LCCI/desc.md) |[GO](leetcode/面试题-01.06-Compress-String-LCCI/main.go)||
+|[面试题-01.06-Compress-String-LCCI](leetcode/面试题-01.06-Compress-String-LCCI/desc.md) |[GO](leetcode/面试题-01.06-Compress-String-LCCI/main.go)|Done|
 |[面试题-01.07-Rotate-Matrix-LCCI](leetcode/面试题-01.07-Rotate-Matrix-LCCI/desc.md) |[GO](leetcode/面试题-01.07-Rotate-Matrix-LCCI/main.go)||
 |[面试题-01.08-Zero-Matrix-LCCI](leetcode/面试题-01.08-Zero-Matrix-LCCI/desc.md) |[GO](leetcode/面试题-01.08-Zero-Matrix-LCCI/main.go)||
 |[面试题-01.09-String-Rotation-LCCI](leetcode/面试题-01.09-String-Rotation-LCCI/desc.md) |[GO](leetcode/面试题-01.09-String-Rotation-LCCI/main.go)||

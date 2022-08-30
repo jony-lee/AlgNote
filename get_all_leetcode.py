@@ -82,7 +82,7 @@ if __name__ == "__main__":
             go_file = path + "main.go"
             with open(go_file, 'r') as f:
                 data = f.readlines()
-            if data[6][:4]=="解题思路" and data[7]+data[8] != "\n\n":
+            if data[1]== "\n":
                 status = "Done"
                 solved +=1
         elif not os.path.exists(path):
@@ -102,6 +102,6 @@ if __name__ == "__main__":
     total = len(read_me_titles)
     with open("readme.md","w") as f:
         f.write("# 题目列表\n\n")
-        f.write(f"![](https://img.shields.io/badge/solved-{solved*100/total}%25(({solved}%2F{total}))-brightgreen)\n")
+        f.write(f"![](https://img.shields.io/badge/solved-{solved*100/total:.2f}%25(({solved}%2F{total}))-brightgreen)\n")
         f.write("|题目描述|代码|状态|\n|--|--|--|\n")
         f.write("\n".join(read_me_titles))
