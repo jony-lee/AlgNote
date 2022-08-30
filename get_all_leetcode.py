@@ -82,10 +82,11 @@ if __name__ == "__main__":
             go_file = path + "main.go"
             with open(go_file, 'r') as f:
                 data = f.readlines()
-            if data[5][:4]=="解题思路" and data[6]+data[7] != "\n\n":
+            if data[6][:4]=="解题思路" and data[7]+data[8] != "\n\n":
                 status = "Done"
                 solved +=1
-        else:
+        elif not os.path.exists(path):
+            print(name)
             os.makedirs(path,exist_ok=True)
             code,desc = get_question_detail(item["stat"]["question__title_slug"])
             if desc != "":

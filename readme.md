@@ -1,6 +1,6 @@
 # 题目列表
 
-![](https://img.shields.io/badge/solved-0.0%25((0%2F2752))-brightgreen)
+![](https://img.shields.io/badge/solved-0.03627130939426913%25((1%2F2757))-brightgreen)
 |题目描述|代码|状态|
 |--|--|--|
 |[0001-Two-Sum](leetcode/0001-Two-Sum/desc.md) |[GO](leetcode/0001-Two-Sum/main.go)||
@@ -379,7 +379,7 @@
 |[0374-Guess-Number-Higher-or-Lower](leetcode/0374-Guess-Number-Higher-or-Lower/desc.md) |[GO](leetcode/0374-Guess-Number-Higher-or-Lower/main.go)||
 |[0375-Guess-Number-Higher-or-Lower-II](leetcode/0375-Guess-Number-Higher-or-Lower-II/desc.md) |[GO](leetcode/0375-Guess-Number-Higher-or-Lower-II/main.go)||
 |[0376-Wiggle-Subsequence](leetcode/0376-Wiggle-Subsequence/desc.md) |[GO](leetcode/0376-Wiggle-Subsequence/main.go)||
-|[0377-Combination-Sum-IV](leetcode/0377-Combination-Sum-IV/desc.md) |[GO](leetcode/0377-Combination-Sum-IV/main.go)||
+|[0377-Combination-Sum-IV](leetcode/0377-Combination-Sum-IV/desc.md) |[GO](leetcode/0377-Combination-Sum-IV/main.go)|Done|
 |[0378-Kth-Smallest-Element-in-a-Sorted-Matrix](leetcode/0378-Kth-Smallest-Element-in-a-Sorted-Matrix/desc.md) |[GO](leetcode/0378-Kth-Smallest-Element-in-a-Sorted-Matrix/main.go)||
 |[0379-Design-Phone-Directory](leetcode/0379-Design-Phone-Directory/desc.md) |[GO](leetcode/0379-Design-Phone-Directory/main.go)||
 |[0380-Insert-Delete-GetRandom-O(1)](leetcode/0380-Insert-Delete-GetRandom-O(1)/desc.md) |[GO](leetcode/0380-Insert-Delete-GetRandom-O(1)/main.go)||
@@ -2381,14 +2381,19 @@
 |[2376-Count-Special-Integers](leetcode/2376-Count-Special-Integers/desc.md) |[GO](leetcode/2376-Count-Special-Integers/main.go)||
 |[2377-Sort-the-Olympic-Table](leetcode/2377-Sort-the-Olympic-Table/desc.md) |[GO](leetcode/2377-Sort-the-Olympic-Table/main.go)||
 |[2378-Choose-Edges-to-Maximize-Score-in-a-Tree](leetcode/2378-Choose-Edges-to-Maximize-Score-in-a-Tree/desc.md) |[GO](leetcode/2378-Choose-Edges-to-Maximize-Score-in-a-Tree/main.go)||
-|[6152-Minimum-Hours-of-Training-to-Win-a-Competition](leetcode/6152-Minimum-Hours-of-Training-to-Win-a-Competition/desc.md) |[GO](leetcode/6152-Minimum-Hours-of-Training-to-Win-a-Competition/main.go)||
-|[6154-Amount-of-Time-for-Binary-Tree-to-Be-Infected](leetcode/6154-Amount-of-Time-for-Binary-Tree-to-Be-Infected/desc.md) |[GO](leetcode/6154-Amount-of-Time-for-Binary-Tree-to-Be-Infected/main.go)||
-|[6155-Find-the-K-Sum-of-an-Array](leetcode/6155-Find-the-K-Sum-of-an-Array/desc.md) |[GO](leetcode/6155-Find-the-K-Sum-of-an-Array/main.go)||
-|[6156-Minimum-Recolors-to-Get-K-Consecutive-Black-Blocks](leetcode/6156-Minimum-Recolors-to-Get-K-Consecutive-Black-Blocks/desc.md) |[GO](leetcode/6156-Minimum-Recolors-to-Get-K-Consecutive-Black-Blocks/main.go)||
-|[6157-Time-Needed-to-Rearrange-a-Binary-String](leetcode/6157-Time-Needed-to-Rearrange-a-Binary-String/desc.md) |[GO](leetcode/6157-Time-Needed-to-Rearrange-a-Binary-String/main.go)||
-|[6158-Shifting-Letters-II](leetcode/6158-Shifting-Letters-II/desc.md) |[GO](leetcode/6158-Shifting-Letters-II/main.go)||
-|[6159-Maximum-Segment-Sum-After-Removals](leetcode/6159-Maximum-Segment-Sum-After-Removals/desc.md) |[GO](leetcode/6159-Maximum-Segment-Sum-After-Removals/main.go)||
-|[6166-Largest-Palindromic-Number](leetcode/6166-Largest-Palindromic-Number/desc.md) |[GO](leetcode/6166-Largest-Palindromic-Number/main.go)||
+|[2379-Minimum-Recolors-to-Get-K-Consecutive-Black-Blocks](leetcode/2379-Minimum-Recolors-to-Get-K-Consecutive-Black-Blocks/desc.md) |[GO](leetcode/2379-Minimum-Recolors-to-Get-K-Consecutive-Black-Blocks/main.go)||
+|[2380-Time-Needed-to-Rearrange-a-Binary-String](leetcode/2380-Time-Needed-to-Rearrange-a-Binary-String/desc.md) |[GO](leetcode/2380-Time-Needed-to-Rearrange-a-Binary-String/main.go)||
+|[2381-Shifting-Letters-II](leetcode/2381-Shifting-Letters-II/desc.md) |[GO](leetcode/2381-Shifting-Letters-II/main.go)||
+|[2382-Maximum-Segment-Sum-After-Removals](leetcode/2382-Maximum-Segment-Sum-After-Removals/desc.md) |[GO](leetcode/2382-Maximum-Segment-Sum-After-Removals/main.go)||
+|[2383-Minimum-Hours-of-Training-to-Win-a-Competition](leetcode/2383-Minimum-Hours-of-Training-to-Win-a-Competition/desc.md) |[GO](leetcode/2383-Minimum-Hours-of-Training-to-Win-a-Competition/main.go)||
+|[2384-Largest-Palindromic-Number](leetcode/2384-Largest-Palindromic-Number/desc.md) |[GO](leetcode/2384-Largest-Palindromic-Number/main.go)||
+|[2385-Amount-of-Time-for-Binary-Tree-to-Be-Infected](leetcode/2385-Amount-of-Time-for-Binary-Tree-to-Be-Infected/desc.md) |[GO](leetcode/2385-Amount-of-Time-for-Binary-Tree-to-Be-Infected/main.go)||
+|[2386-Find-the-K-Sum-of-an-Array](leetcode/2386-Find-the-K-Sum-of-an-Array/desc.md) |[GO](leetcode/2386-Find-the-K-Sum-of-an-Array/main.go)||
+|[2388-Change-Null-Values-in-a-Table-to-the-Previous-Value](leetcode/2388-Change-Null-Values-in-a-Table-to-the-Previous-Value/desc.md) |[GO](leetcode/2388-Change-Null-Values-in-a-Table-to-the-Previous-Value/main.go)||
+|[2389-Longest-Subsequence-With-Limited-Sum](leetcode/2389-Longest-Subsequence-With-Limited-Sum/desc.md) |[GO](leetcode/2389-Longest-Subsequence-With-Limited-Sum/main.go)||
+|[2390-Removing-Stars-From-a-String](leetcode/2390-Removing-Stars-From-a-String/desc.md) |[GO](leetcode/2390-Removing-Stars-From-a-String/main.go)||
+|[2391-Minimum-Amount-of-Time-to-Collect-Garbage](leetcode/2391-Minimum-Amount-of-Time-to-Collect-Garbage/desc.md) |[GO](leetcode/2391-Minimum-Amount-of-Time-to-Collect-Garbage/main.go)||
+|[2392-Build-a-Matrix-With-Conditions](leetcode/2392-Build-a-Matrix-With-Conditions/desc.md) |[GO](leetcode/2392-Build-a-Matrix-With-Conditions/main.go)||
 |[LCP-01-Guess-Numbers](leetcode/LCP-01-Guess-Numbers/desc.md) |[GO](leetcode/LCP-01-Guess-Numbers/main.go)||
 |[LCP-02-Deep-Dark-Fraction](leetcode/LCP-02-Deep-Dark-Fraction/desc.md) |[GO](leetcode/LCP-02-Deep-Dark-Fraction/main.go)||
 |[LCP-03-Programmable-Robot](leetcode/LCP-03-Programmable-Robot/desc.md) |[GO](leetcode/LCP-03-Programmable-Robot/main.go)||
@@ -2515,7 +2520,6 @@
 |[剑指-Offer-58---I-翻转单词顺序-LCOF](leetcode/剑指-Offer-58---I-翻转单词顺序-LCOF/desc.md) |[GO](leetcode/剑指-Offer-58---I-翻转单词顺序-LCOF/main.go)||
 |[剑指-Offer-58---II-左旋转字符串-LCOF](leetcode/剑指-Offer-58---II-左旋转字符串-LCOF/desc.md) |[GO](leetcode/剑指-Offer-58---II-左旋转字符串-LCOF/main.go)||
 |[剑指-Offer-59---I-滑动窗口的最大值-LCOF](leetcode/剑指-Offer-59---I-滑动窗口的最大值-LCOF/desc.md) |[GO](leetcode/剑指-Offer-59---I-滑动窗口的最大值-LCOF/main.go)||
-|[剑指-Offer-59---II-队列的最大值-LCOF](leetcode/剑指-Offer-59---II-队列的最大值-LCOF/desc.md) |[GO](leetcode/剑指-Offer-59---II-队列的最大值-LCOF/main.go)||
 |[剑指-Offer-60-n个骰子的点数--LCOF](leetcode/剑指-Offer-60-n个骰子的点数--LCOF/desc.md) |[GO](leetcode/剑指-Offer-60-n个骰子的点数--LCOF/main.go)||
 |[剑指-Offer-61-扑克牌中的顺子--LCOF](leetcode/剑指-Offer-61-扑克牌中的顺子--LCOF/desc.md) |[GO](leetcode/剑指-Offer-61-扑克牌中的顺子--LCOF/main.go)||
 |[剑指-Offer-62-圆圈中最后剩下的数字-LCOF](leetcode/剑指-Offer-62-圆圈中最后剩下的数字-LCOF/desc.md) |[GO](leetcode/剑指-Offer-62-圆圈中最后剩下的数字-LCOF/main.go)||
@@ -2755,3 +2759,4 @@
 |[面试题-17.25-Word-Rectangle-LCCI](leetcode/面试题-17.25-Word-Rectangle-LCCI/desc.md) |[GO](leetcode/面试题-17.25-Word-Rectangle-LCCI/main.go)||
 |[面试题-17.26-Sparse-Similarity-LCCI](leetcode/面试题-17.26-Sparse-Similarity-LCCI/desc.md) |[GO](leetcode/面试题-17.26-Sparse-Similarity-LCCI/main.go)||
 |[面试题13-机器人的运动范围--LCOF](leetcode/面试题13-机器人的运动范围--LCOF/desc.md) |[GO](leetcode/面试题13-机器人的运动范围--LCOF/main.go)||
+|[面试题59---II-队列的最大值-LCOF](leetcode/面试题59---II-队列的最大值-LCOF/desc.md) |[GO](leetcode/面试题59---II-队列的最大值-LCOF/main.go)||
